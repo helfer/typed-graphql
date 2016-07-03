@@ -11,7 +11,7 @@ export function graphql(
 
 interface GraphQLResult {
     data?: any;
-    errors?: Array<GraphQLError>;
+    errors?: Array<GraphQLFormattedError>;
 }
 
 // error/*.js
